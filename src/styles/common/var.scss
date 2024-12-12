@@ -1,0 +1,11 @@
+// custom css vars
+:root {
+  // 169px: header[64+3] + tab[40] + main padding[12] + footer[50]
+  --content-base-height: calc(100vh - 169px);
+  // tab
+  --content-max-height: calc(100vh - 129px);
+  // tab
+  --content-min-height: calc(100vh - 169px);
+  // tab view
+  --tab-view-height: 40px;
+}
